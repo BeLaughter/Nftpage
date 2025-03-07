@@ -83,7 +83,7 @@
   background-image: radial-gradient(
     circle at right center,
     /* Move blob to the left bottom */ rgba(163, 26, 255, 0.8) 0%,
-    /* Vibrant purple */ rgba(21, 165, 227, 0.2) 20%,
+    /* Vibrant purple */ rgba(21, 165, 227, 0.2) 40%,
     /* Subtle blue fade */ transparent 80%
   );
 }
