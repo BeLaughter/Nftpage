@@ -1,0 +1,162 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .body {
+    padding: 20px;
+  }
+  .square {
+    padding: 20px;
+    height: auto;
+    border-radius: 15px;
+    background-color: rgb(122, 120, 120);
+  }
+  .squar {
+    padding-bottom: 10px;
+    border-radius: 15px;
+    background-color: rgb(253, 251, 248);
+  }
+  .squ {
+    width: 100%;
+    height: 400px;
+  }
+  .sqb {
+    margin: 20px;
+  }
+  .imgbody {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .row3 {
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bold;
+    font-family: sans-serif;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #a31aff 0%, #15a5e3 100%);
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .body {
+    padding: 100px;
+  }
+
+  .square {
+    padding: 20px;
+    height: auto;
+    border-radius: 15px;
+    background-color: rgb(141, 139, 139);
+  }
+  .squar {
+    padding-bottom: 10px;
+    border-radius: 15px;
+    background-color: rgb(253, 251, 248);
+  }
+  .squ {
+    width: 400px;
+    height: 400px;
+  }
+  .sqb {
+    margin: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    justify-content: space-between;
+  }
+  .imgbody {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+  .row2 {
+    align-items: center;
+  }
+  .row3 {
+    margin-top: 20px;
+    width: 300px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #a31aff 0%, #15a5e3 100%);
+  }
+  .row {
+    padding-right: 450px;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+.icon {
+  color: #a31aff;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.row4 {
+  width: 300px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.p {
+  font-size: 15px;
+  font-weight: bold;
+}
+.avatar-group {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  margin-left: -10px; /* Creates the overlap */
+}
+.avatar:first-child {
+  margin-left: 0; /* Prevents the first image from shifting */
+}
+.body-btn {
+  margin-right: 10px;
+  font-weight: bold;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  border: 3px solid #15a5e3;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #a31aff 16%, #15a5e3 50%);
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
+}
+.body-btn2 {
+  height: 50px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: rgb(14, 13, 13);
+  font-size: 20px;
+  border: 3px solid #15a5e3;
+  border-radius: 15px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
+}
+.body {
+  background-color: #15a5e3;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'><path fill='%23a31aff' fill-opacity='1' d='M0,224L48,213.3C96,203,192,181,288,154.7C384,128,480,96,576,106.7C672,117,768,171,864,202.7C960,235,1056,245,1152,213.3C1248,181,1344,107,1392,69.3L1440,32L1440,320L0,320Z'></path></svg>");
+  background-size: cover;
+}
+.box2 {
+  background: linear-gradient(#a31aff, #15a5e3) padding-box,
+    linear-gradient(45deg, #a31aff, #15a5e3) border-box;
+  border: 3px solid transparent;
+}

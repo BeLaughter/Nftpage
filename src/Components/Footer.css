@@ -1,0 +1,101 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .footer {
+    padding: 20px;
+    color: white;
+  }
+  .fit {
+    width: 100%;
+    height: 250px;
+    padding-left: auto;
+    padding-right: auto;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: linear-gradient(90deg, #a31aff 16%, #15a5e3 50%);
+    border-bottom-right-radius: 100px;
+    margin-top: 30px;
+  }
+  .text {
+    text-align: center;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .fet {
+    margin-top: 50px;
+  }
+  .navnd {
+    color: rgb(253, 251, 251);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "poppings", sans-serif;
+    padding: 0px 10px;
+    font-size: 2rem;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .footer {
+    padding: 100px;
+    color: white;
+  }
+  .flex-item1 {
+    width: 40%;
+  }
+  .flex-item2 {
+    width: 60%;
+  }
+  .fit {
+    width: 100%;
+    height: 300px;
+    padding-left: auto;
+    padding-right: auto;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: linear-gradient(90deg, #a31aff 16%, #15a5e3 50%);
+    border-bottom-right-radius: 150px;
+  }
+  .fet {
+    margin-top: 100px;
+  }
+  .text {
+    text-align: center;
+    padding: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .navnd {
+    color: rgb(253, 251, 251);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "poppings", sans-serif;
+    font-size: 2.5rem;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+
+.footer {
+  background-color: #0a0a0a; /* Dark background for contrast */
+  background-image: radial-gradient(
+    circle at left bottom,
+    /* Move blob to the left bottom */ rgba(163, 26, 255, 0.8) 0%,
+    /* Vibrant purple */ rgba(21, 165, 227, 0.2) 25%,
+    /* Subtle blue fade */ transparent 80%
+  );
+}
+.blk {
+  color: white !important;
+}
+.blu {
+  color: #15a5e3;
+}

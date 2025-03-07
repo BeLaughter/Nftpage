@@ -1,0 +1,31 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .seller {
+    padding: 20px;
+    color: white;
+    height: 100vh;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .seller {
+    padding: 100px;
+    color: white;
+    height: 120vh;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+
+.seller {
+  background-color: #0a0a0a; /* Dark background for contrast */
+  background-image: radial-gradient(
+    circle at top center,
+    /* Move blob to the right */ rgba(163, 26, 255, 0.8) 0%,
+    rgba(21, 165, 227, 0.2) 20%,
+    transparent 80%
+  );
+}
