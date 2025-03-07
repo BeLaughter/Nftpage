@@ -8,7 +8,7 @@ const Artcard = (props) => {
       </div>
       <div className="flex bum">
         <p className="artp"> {props.text} </p>
-        <a className="btn  art-btn2 box">{props.anc}</a>
+        <a className="btn  art-btn2 boxs">{props.anc}</a>
       </div>
     </div>
   );

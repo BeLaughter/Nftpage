@@ -13,14 +13,14 @@ const Slidecard = (props) => {
         <img src={props.img} className="slide-img" alt="slides"></img>
       </div>
       <div className="slidetext flex">
-        <div>
+        <div className="slidep">
           <p>{props.text}</p>
           <p>{props.text2}</p>
         </div>
         <div>
           <a className="btn  body-btn2 box">{props.anc}</a>
-          <p className="p10">
-            <FaHeart className="icon blk" /> {props.text3}
+          <p className="p10 slidep">
+            <FaHeart className="icons blk" /> {props.text3}
           </p>
         </div>
       </div>

@@ -65,6 +65,7 @@
   }
   .art-btn2 {
     height: 50px;
+    background-color: transparent;
     font-weight: bold;
     color: rgb(14, 13, 13);
     font-size: 20px;
@@ -88,13 +89,38 @@
 }
 .artcard {
   padding: 20px;
-  background-color: white;
   border-radius: 10px;
-  color: black !important;
-  margin: 10px;
+  color: white !important;
+  margin: 20px;
 }
 .bum {
   justify-content: space-between;
   justify-content: space-around;
   align-items: center;
+}
+.boxs {
+  color: white !important;
+  background: linear-gradient(#2b2929, #2b2929) padding-box,
+    linear-gradient(45deg, #a31aff, #15a5e3) border-box;
+  border: 3px solid transparent;
+}
+.artcard {
+  background-color: #0a0a0a;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #a31aff 10%,
+    #15a5e3 30%,
+    transparent 50%
+  );
+  background-size: 200% 200%;
+  animation: moveStripes 6s infinite linear;
+}
+
+@keyframes moveStripes {
+  from {
+    background-position: 0% 0%;
+  }
+  to {
+    background-position: 100% 100%;
+  }
 }

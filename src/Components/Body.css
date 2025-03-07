@@ -8,12 +8,11 @@
     padding: 20px;
     height: auto;
     border-radius: 15px;
-    background-color: rgb(122, 120, 120);
+    background-color: #0a0a0a;
   }
   .squar {
     padding-bottom: 10px;
     border-radius: 15px;
-    background-color: rgb(253, 251, 248);
   }
   .squ {
     width: 100%;
@@ -21,6 +20,7 @@
   }
   .sqb {
     margin: 20px;
+    justify-content: space-between;
   }
   .imgbody {
     width: 100%;
@@ -31,11 +31,20 @@
     margin-top: 20px;
     width: 100%;
     font-weight: bold;
+    font-size: 22px;
     font-family: sans-serif;
     justify-content: space-between;
     padding: 20px;
     border-radius: 20px;
     background: linear-gradient(90deg, #a31aff 0%, #15a5e3 100%);
+  }
+  .row4 {
+    font-size: 20px;
+  }
+  .iconb {
+    margin-top: 0px;
+    width: 40px;
+    height: 40px;
   }
 }
 
@@ -50,12 +59,11 @@
     padding: 20px;
     height: auto;
     border-radius: 15px;
-    background-color: rgb(141, 139, 139);
+    background-color: #0a0a0a;
   }
   .squar {
     padding-bottom: 10px;
     border-radius: 15px;
-    background-color: rgb(253, 251, 248);
   }
   .squ {
     width: 400px;
@@ -82,6 +90,7 @@
     width: 300px;
     font-weight: bold;
     font-family: sans-serif;
+    font-size: 20px;
     padding: 20px;
     justify-content: space-between;
     border-radius: 20px;
@@ -89,6 +98,11 @@
   }
   .row {
     padding-right: 450px;
+  }
+  .iconb {
+    margin-top: 12px;
+    width: 40px;
+    height: 40px;
   }
 }
 
@@ -99,7 +113,9 @@
   height: 40px;
   margin-bottom: 20px;
 }
-
+.body {
+  color: white !important;
+}
 .row4 {
   width: 300px;
   font-weight: bold;
@@ -109,6 +125,7 @@
 }
 .p {
   font-size: 15px;
+  color: rgb(250, 248, 248);
   font-weight: bold;
 }
 .avatar-group {
@@ -130,24 +147,22 @@
 .body-btn {
   margin-right: 10px;
   font-weight: bold;
-  height: 50px;
+  height: 40px;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   border: 3px solid #15a5e3;
   border-radius: 15px;
   background: linear-gradient(90deg, #a31aff 16%, #15a5e3 50%);
-  padding: 10px 20px;
   box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
 }
 .body-btn2 {
-  height: 50px;
+  height: 40px;
   margin-right: 10px;
   font-weight: bold;
   color: rgb(14, 13, 13);
-  font-size: 20px;
+  font-size: 15px;
   border: 3px solid #15a5e3;
   border-radius: 15px;
-  padding: 10px 20px;
   box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
 }
 .body {
@@ -156,7 +171,20 @@
   background-size: cover;
 }
 .box2 {
-  background: linear-gradient(#a31aff, #15a5e3) padding-box,
+  background: linear-gradient(#15a5e3, #a31aff) padding-box,
     linear-gradient(45deg, #a31aff, #15a5e3) border-box;
   border: 3px solid transparent;
+}
+
+.pbody {
+  align-items: center;
+}
+.squar {
+  background-color: #0a0a0a; /* Dark background for contrast */
+  background-image: radial-gradient(
+    circle at right bottom,
+    /* Move blob to the left bottom */ rgba(251, 251, 252, 0.8) 0%,
+    /* Vibrant purple */ rgba(163, 26, 255, 0.8) 25%,
+    /* Subtle blue fade */ transparent 80%
+  );
 }

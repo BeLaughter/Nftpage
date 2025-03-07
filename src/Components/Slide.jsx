@@ -107,7 +107,7 @@ const Slide = () => {
               anc="22ETH"
               text="Postel Wifey"
               text2="By Blake Montez"
-              text3=""
+              text3="49K"
             />
           </SwiperSlide>
         </Swiper>

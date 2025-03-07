@@ -71,6 +71,11 @@
   .p10 {
     padding-top: 10px;
   }
+  .slidep {
+    font-weight: bold;
+    font-size: 17px;
+    font-family: sans-serif;
+  }
 }
 
 /* stylings that doesnt affect screens only */
@@ -83,4 +88,8 @@
     rgba(21, 165, 227, 0.2) 50%,
     transparent 80%
   );
+}
+.icons {
+  width: 30px;
+  height: 30px;
 }

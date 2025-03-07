@@ -15,11 +15,16 @@ const Body = () => {
             </p>
           </div>
           <div className="row2 flex">
-            <a className="btn  body-btn">Discover</a>
-            <a className="btn  body-btn2 box">Create</a>
             <div>
+              {" "}
+              <a className="btn  body-btn">Discover</a>
+            </div>
+            <div>
+              <a className="btn  body-btn2 box">Create</a>
+            </div>
+            <div className="pbody">
               <p>
-                <FaVideo className="icon" /> Watch a video
+                <FaVideo className="iconb" /> Watch a video
               </p>
             </div>
           </div>
