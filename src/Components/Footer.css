@@ -99,3 +99,36 @@
 .blu {
   color: #15a5e3;
 }
+.foot-btn {
+  margin-right: 10px;
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px;
+  font-size: 25px;
+  border: 3px solid #15a5e3;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #a31aff 16%, #15a5e3 50%);
+  box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
+}
+.ft-search {
+  width: 100%;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 6px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
+}
+.ftbar-btn {
+  width: 100%;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  border: 3px solid #15a5e3;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #a31aff 16%, #15a5e3 50%);
+  padding: 6px 20px;
+  box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
+}

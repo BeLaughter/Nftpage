@@ -8,7 +8,9 @@ const Body = () => {
       <div className="flex-container">
         <div className="flex-item">
           <div className="row">
-            <h1>Discover, Collect and Sell Dope Art and NFTS</h1>
+            <h1 className="bodh1">
+              Discover, Collect and Sell Dope Art and NFTS
+            </h1>
             <p>
               The worlds largest digital marketplace for crypto collection and
               non fungible token (NFTS)

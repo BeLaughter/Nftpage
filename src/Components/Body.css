@@ -4,6 +4,10 @@
   .body {
     padding: 20px;
   }
+  .bodh1 {
+    font-size: 35px;
+    font-weight: bold;
+  }
   .square {
     padding: 20px;
     height: auto;
@@ -184,7 +188,7 @@
   background-image: radial-gradient(
     circle at right bottom,
     /* Move blob to the left bottom */ rgba(251, 251, 252, 0.8) 0%,
-    /* Vibrant purple */ rgba(163, 26, 255, 0.8) 25%,
+    /* Vibrant purple */ rgba(163, 26, 255, 0.8) 40%,
     /* Subtle blue fade */ transparent 80%
   );
 }

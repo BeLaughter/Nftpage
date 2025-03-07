@@ -10,7 +10,7 @@ const Footer = () => {
           Join Us to Create Sell and Collect NFTs Digital Arts
         </h1>
         <div className="d-flex justify-content-center align-items-center">
-          <a className="btn body-btn">Join Community</a>
+          <a className="btn foot-btn">Join Community</a>
         </div>
       </div>
       <div className="fet flex-container">
@@ -32,18 +32,12 @@ const Footer = () => {
         </div>
         <div className="flex-item2 flex-container">
           <div className="hiddenonlap">
-            <ul>
-              <li className="nav-item">
-                <input
-                  type="search"
-                  placeholder="🔍Search..."
-                  className="nav-search hiddenonmobile box"
-                ></input>
-              </li>
-              <li className="nav-item">
-                <a className="btn hiddenonmobile navbar-btn">Register</a>
-              </li>
-            </ul>
+            <input
+              type="search"
+              placeholder="🔍Search..."
+              className="ft-search  box"
+            ></input>
+            <a className="btn  ftbar-btn">Register</a>
           </div>
           <ul>
             <li>
