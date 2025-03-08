@@ -68,8 +68,9 @@ const Body = () => {
               ></img>
             </div>
             <div>
-              <p>40k +</p>
-              <p>Active Users</p>
+              <p>
+                40k +<br></br>Active Users
+              </p>
             </div>
           </div>
         </div>

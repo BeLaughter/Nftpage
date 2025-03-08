@@ -10,12 +10,12 @@
     margin-top: 50px;
     width: 100%;
     height: auto;
-    border-radius: 15px;
+    border-radius: 20px;
     padding-bottom: 5px;
     background: rgba(255, 255, 255, 0.05); /* Subtle transparency */
     backdrop-filter: blur(10px); /* Glass effect */
     border: 1px solid rgba(255, 255, 255, 0.2); /* Soft border */
-    box-shadow: 0 0 20px rgba(163, 26, 255, 0.6); /* Glow effect */
+    box-shadow: 0 4px 30px rgba(163, 26, 255, 0.9); /* Glow effect */
   }
   .slidetext {
     margin: 20px;
@@ -52,7 +52,10 @@
     width: 300px;
     height: auto;
     border-radius: 15px;
-    border: 3px solid #15a5e3;
+    background: rgba(255, 255, 255, 0.05); /* Subtle transparency */
+    backdrop-filter: blur(10px); /* Glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Soft border */
+    box-shadow: 0 0 20px rgba(163, 26, 255, 0.6); /* Glow effect */
   }
   .slidetext {
     margin: 20px;
@@ -88,11 +91,11 @@
   background-image: radial-gradient(
     circle at center,
     rgba(163, 26, 255, 0.8) 0%,
-    rgba(21, 165, 227, 0.2) 50%,
+    rgba(21, 165, 227, 0.2) 60%,
     transparent 80%
   );
 }
 .icons {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
 }

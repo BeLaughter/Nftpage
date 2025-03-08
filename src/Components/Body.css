@@ -45,10 +45,7 @@
     background: linear-gradient(90deg, #a31aff 0%, #15a5e3 100%);
   }
   .row4 {
-    padding: 10px;
-    justify-content: space-around;
     font-size: 20px;
-    justify-content: space-between;
   }
   .iconb {
     margin-top: 0px;
@@ -184,7 +181,6 @@
 .avatar-group {
   display: flex;
   align-items: center;
-  margin-right: 20px;
 }
 .avatar {
   width: 50px;
