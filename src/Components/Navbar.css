@@ -6,7 +6,6 @@
     text-decoration: none;
     font-weight: bold;
     font-family: "poppings", sans-serif;
-    padding: 0px 10px;
     font-size: 2rem;
   }
   .nav-link {
@@ -33,7 +32,9 @@
     font-weight: bold;
     margin-left: 30px;
   }
-
+  .navbar-brand {
+    margin-left: 50px;
+  }
   .nav-link:hover {
     border-bottom-width: 5px;
     border-bottom-color: #a31aff;
@@ -52,10 +53,6 @@
 }
 
 /* stylings that doesnt affect screens only */
-
-.navbar-brand {
-  margin-left: 50px;
-}
 
 .navbar-btn {
   margin-right: 50px;
