@@ -25,7 +25,7 @@
   background-image: radial-gradient(
     circle at top center,
     /* Move blob to the right */ rgba(163, 26, 255, 0.8) 0%,
-    rgba(21, 165, 227, 0.2) 20%,
+    rgba(21, 165, 227, 0.2) 40%,
     transparent 80%
   );
 }
