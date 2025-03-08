@@ -110,13 +110,13 @@ const Footer = () => {
         </div>
       </div>
       <hr></hr>
-      <h5 className="text-center">
+      <h6 className="text-center">
         © 2025{" "}
         <span className="navnd2">
           Play<span className="grad">NFT</span>.
         </span>
         All Rights Reserved.Designed by BLACKFIRE
-      </h5>
+      </h6>
     </div>
   );
 };
