@@ -4,7 +4,7 @@
   .seller {
     padding: 20px;
     color: white;
-    height: 100vh;
+    height: auto;
   }
 }
 
@@ -14,7 +14,7 @@
   .seller {
     padding: 100px;
     color: white;
-    height: 120vh;
+    height: 90vh;
   }
 }
 
@@ -28,4 +28,85 @@
     rgba(21, 165, 227, 0.2) 20%,
     transparent 80%
   );
+}
+/* slider css */
+.slider-wrapper {
+  display: flex;
+  flex-direction: column; /* Stack sliders vertically */
+  align-items: center;
+  gap: 20px; /* Space between sliders */
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 20px 0;
+}
+
+.auto-slider-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+
+.auto-slider {
+  display: flex;
+  width: 200%; /* Double the width for smooth looping */
+}
+
+.auto-slider-left {
+  animation: slideLeft 8s linear infinite;
+}
+
+.auto-slider-right {
+  animation: slideRight 8s linear infinite;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  } /* Half to create loop effect */
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.bat {
+  width: 200px;
+  height: 150px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+.purple {
+  background-color: purple;
+}
+.orange {
+  background-color: orange;
+}
+.pink {
+  background-color: pink;
+}
+.cyan {
+  background-color: cyan;
 }

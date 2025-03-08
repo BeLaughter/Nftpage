@@ -1,7 +1,12 @@
 import React from "react";
+import Art from "../Components/Art";
 
 const Explore = () => {
-  return <div>Explore</div>;
+  return (
+    <div>
+      <Art />
+    </div>
+  );
 };
 
 export default Explore;
