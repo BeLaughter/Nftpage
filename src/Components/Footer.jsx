@@ -47,7 +47,7 @@ const Footer = () => {
               <p>Art</p>
             </li>
             <li>
-              <p>Photgraphy</p>
+              <p>Photography</p>
             </li>
             <li>
               <p>Music</p>
@@ -109,6 +109,14 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <hr></hr>
+      <h5 className="text-center">
+        © 2025{" "}
+        <span className="navnd2">
+          Play<span className="grad">NFT</span>.
+        </span>
+        All Rights Reserved.Designed by BLACKFIRE
+      </h5>
     </div>
   );
 };
