@@ -12,7 +12,8 @@
     padding: 20px;
     height: auto;
     border-radius: 15px;
-    background-color: #0a0a0a;
+    background-color: transparent;
+    box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
   }
   .squar {
     padding-bottom: 10px;
@@ -63,7 +64,8 @@
     padding: 20px;
     height: auto;
     border-radius: 15px;
-    background-color: #0a0a0a;
+    background-color: transparent;
+    box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
   }
   .squar {
     padding-bottom: 10px;
