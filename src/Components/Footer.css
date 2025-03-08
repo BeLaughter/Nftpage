@@ -52,6 +52,7 @@
 @media (min-width: 769px) {
   .footer {
     padding: 100px;
+    padding-bottom: 50px !important;
     color: white;
   }
   .flex-item1 {
@@ -94,7 +95,7 @@
     text-decoration: none;
     font-weight: bold;
     font-family: "poppings", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -105,7 +106,7 @@
   background-image: radial-gradient(
     circle at left bottom,
     /* Move blob to the left bottom */ rgba(163, 26, 255, 0.8) 0%,
-    /* Vibrant purple */ rgba(21, 165, 227, 0.2) 25%,
+    /* Vibrant purple */ rgba(21, 165, 227, 0.2) 40%,
     /* Subtle blue fade */ transparent 80%
   );
 }
