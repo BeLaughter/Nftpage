@@ -4,7 +4,13 @@ import "./Seller.css";
 const Seller = () => {
   return (
     <div className="seller">
-      <h1 className="title text-center">Top Seller</h1>
+      <h1
+        className="title text-center"
+        data-aos="fade-down"
+        data-aos-duration="2500"
+      >
+        Top Seller
+      </h1>
 
       <div className="slider-wrapper">
         {/* First slider moving left */}

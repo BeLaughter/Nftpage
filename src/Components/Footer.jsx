@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="fit">
+      <div className="fit" data-aos="fade-down" data-aos-duration="2500">
         <h1 className="text">
           Join Us to Create Sell and Collect NFTs Digital Arts
         </h1>
