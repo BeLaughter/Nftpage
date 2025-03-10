@@ -11,7 +11,7 @@ const Art = () => {
     <div className="art">
       <h1
         className="text-center title"
-        data-aos="fade-down"
+        data-aos="fade-up"
         data-aos-duration="2500"
       >
         Explore Artworks

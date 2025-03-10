@@ -7,11 +7,14 @@
     height: auto;
   }
   .bat {
-    width: 300px;
+    width: 350px;
     height: auto;
     padding: 10px;
     margin: 5px;
     border-radius: 10px;
+  }
+  .sellertext {
+    margin-left: 20px;
   }
 }
 
@@ -29,6 +32,9 @@
     padding: 20px;
     margin: 5px;
     border-radius: 10px;
+  }
+  .sellertext {
+    margin-left: 50px;
   }
 }
 
@@ -122,7 +128,4 @@
   justify-content: space-around !important;
   font-weight: bold;
   align-content: center;
-}
-.sellertext {
-  margin-left: 50px;
 }
