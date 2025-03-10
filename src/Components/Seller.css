@@ -80,8 +80,9 @@
 }
 
 .bat {
-  width: 200px;
-  height: 150px;
+  width: 250px;
+  height: auto;
+  padding: 20px;
   margin: 5px;
   border-radius: 10px;
 }
@@ -109,4 +110,13 @@
 }
 .cyan {
   background-color: cyan;
+}
+.sellcard {
+  justify-content: space-between !important;
+  justify-content: space-around !important;
+  font-weight: bold;
+  align-content: center;
+}
+.sellertext {
+  margin-left: 50px;
 }
