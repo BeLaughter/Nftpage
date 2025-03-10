@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="fit" data-aos="fade-down" data-aos-duration="2500">
+      <div className="fit" data-aos="fade-down" data-aos-duration="2000">
         <h1 className="text">
           Join Us to Create Sell and Collect NFTs Digital Arts
         </h1>
@@ -15,7 +15,11 @@ const Footer = () => {
       </div>
       <div className="fet flex-container">
         <div className="flex-item1">
-          <h1 className="navnd">
+          <h1
+            className="navnd"
+            data-aos="zoom-in-right"
+            data-aos-duration="2000"
+          >
             Play<span className="grad">NFT</span>
           </h1>
           <p>
