@@ -2,7 +2,7 @@ import React from "react";
 import "./Art.css";
 const Artcard = (props) => {
   return (
-    <div className="artcard">
+    <div className="artcard" data-aos="flip-left" data-aos-duration="2500">
       <div className="artimg">
         <img src={props.img} alt="ar image" className="art-img"></img>
       </div>
