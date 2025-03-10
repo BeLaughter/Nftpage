@@ -27,7 +27,13 @@ import {
 const Slide = () => {
   return (
     <div className="slide">
-      <h1 className="title text-center">Popular this week</h1>
+      <h1
+        className="title text-center"
+        data-aos="fade-up"
+        data-aos-duration="2500"
+      >
+        Popular this week
+      </h1>
       <div className="swiper-container">
         <Swiper
           loop={true} // Enables infinite loop

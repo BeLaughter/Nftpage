@@ -6,7 +6,7 @@ const Seller = () => {
     <div className="seller">
       <h1
         className="title text-center"
-        data-aos="fade-down"
+        data-aos="fade-up"
         data-aos-duration="2500"
       >
         Top Seller
